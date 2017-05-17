@@ -1,40 +1,185 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<!-- Place favicon.ico in the root directory -->
+	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+            <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+            <!-- Add your site or application content here -->
+            <main id="content">
+            	<header id="site__header">
+            	<div class="header__top logo_wrapper ">
+            		<a href="#" class="company_logo__link "><img src="img/header/logo.png" alt="Global Coach company" class="company_logo__img"></a>
+            		<p class="company__slogan">GoldCoach представляет…</p>
+            	</div>
+            	<hr>
+            	<div class="header__bottom">
+            		<h1 class="primary__title">Бесплатный вебинар</h1>
+            		<p class="primary__description">10 шагов к созданию «саморазвивающейся компании» <br class="hidden__md_lg">(включая свободу, как управлять 3 компаниями  и пройти ironman)</p>
+            		<button type="button" name="orderButton" class="order__button">Забронировать место! >> </button>
+            	</div>
+            	
+            </header>
+            <article id="heroBlock" class="">
+            	<div class="about__wrapper clearfix">
+            		<div class="about__child preferences">
+            			<div class="countdown__wrapper">
+            				<p class="countdown__caution">До старта трансляции осталось…</p>
+            				<div class="countdown">
+            					<div id="countdown__timer"></div>
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+            				</div>
+            			</div>
+            			<h2 class="secondary__title">Вот всего лишь малая часть из того, что ты узнаешь на вебинаре:</h2>
+            			<div class="info_value__wrapper">
+            				<ul class="value_list">
+            					<li class="value_list__item">Простая 10 шаговая система для дизайна «Саморазвивающейся Компании» в 2017 году</li>
+            					<li class="value_list__item">Как решить проблему людей №1 и масштабироать бизнес в 10 раз</li>
+            					<li class="value_list__item">Какие <b>4 пункта</b> плана внедрить за следующие 6 месяцев, чтобы освободить 80% вашего время</li>
+            					<li class="value_list__item"><b>2 простых</b> и легкие для внедрения «фишки», которые радикально поднимут эффективность компании</li>
+            					<li class="value_list__item"><b>3 фундаментальные причины</b>, почему Ваш бизнес никогда не масштабируется на свой 100% потенциал прибыли </li>
+            					<li class="value_list__item"><b>Вы или Вас:</b> как перестать быть жертвой подчиненных и начать профессионально управлять людьми</li>
+            					<li class="value_list__item"><b>3 тактики</b>, которые превратят кризисную компанию в устойчивую и прибыльную в 2017 году</li>
+            					<li class="value_list__item"> <b>Формула </b>как построить здоровую и умную компанию на долгие годы, чтобы и внуки вами гордились</li>			
+            				</ul>
+            			</div>
+            		</div>
+            		<div class="about__child hero_about">
+            			<header class="hero_about__header clearfix">
+            				<div class="date__wrapper">
+            					<p class="vebinar__month">Май</p>
+            					<p class="vebinar__day">17</p>
+            				</div>
+            				<div class="date__wrapper">
+            					<p class="details__date">Среда <br> 17 мая</p>
+            					<p class="details__time">20:00 МСК</p>
+            				</div>
+            			</header>
+            			<section class="hero_about__description">
+            				<div class="hero_portrait_wrapper"></div>
+            				<p class="hero__roll"><i>Спикер</i></p>
+            				<h2 class="hero__name">Иван <br> Зимбицкий</h2>
+            				<div class="hero_value__wrapper">
+            					<ul class="hero_list">
+            						<li class="hero_list__item"> Отец, блогер, путешественник, спортсмен</li>
+            						<li class="hero_list__item">Владелец 3 бизнесов (детский футбол, розница, онлайн)</li>
+            						<li class="hero_list__item">Автор 6 книг и более 200 публикаций</li>
+            						<li class="hero_list__item">Создал более 20 курсов и тренингов, которые прошли более 20 000 человек</li>
+            						<li class="hero_list__item">Помог более 1 000 предпринимателей начать успешный бизнес</li>
+            						<li class="hero_list__item">Владелец сети футбольных клубов для дошкольников</li>
+            						<li class="hero_list__item">Успешно управляет более 130 людьми (и живет счастливо)</li>
+            						<li class="hero_list__item">Создал мировую революцию в дестком футболе создав прибыльную модель футбольной школы для дошкольников от 3 до 7 лет</li>
+            						<li class="hero_list__item">Выступал на одной сцене с Джорданом Белфордом (Волк с Уолл-Стрит)</li>
+            					</ul>
+            				</div>
+            			</section>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
-</html>
+
+            		</div>
+
+            	</div>
+            	
+            
+            </main>
+            <section id="event__about">
+            		<div class="event_about__wrapper">
+            				<div class="event__about">
+            			<h2 class="secondary_title event_about__title"><i>Формат участия: живое присутствие <br class="hidden__md_lg">в онлайн всего 500 мест <br class="hidden__md_lg">(повтора и записи не будет) </i></h2>
+            			<div class="event__for">
+            				<p class="highlight__text">Для кого вебинар? </p>
+            				<p>Для существующих предпринимателей с чистым доходом <br> от 150 000 рублей в месяц</p>
+            			</div>
+            		</div>
+            		
+            		<div class="event_about__description">
+            			<h2 class="secondary_title">Наконец-то, раскрыта технология как предпринимателю управлять прибыльным бизнесом (и даже не одним), при этом оставаясь свободным, здоровым и довольным жизнью, без стресса и необходимости жить на работе! </h2>
+            			<p class="paragraph__1">Представьте, как Вы <b>с удовольствием просыпаетесь утром</b> и с самых первых минут дня точно знаете, что нужно делать сегодня, чтобы сделать ваш бизнес еще более прибыльным… </p>
+            			<p class="paragraph__2">За утренним кофе Вы смотрите статистику по продажам и <b>с чувством гордости видите</b>, что по сравнению с прошлым месяцем она выросла значительно, так как Вы внедрили новые системы в продажах и маркетинге… </p>
+            			<p class="paragraph__3">Вы с <b>нетерпением ждете встречи с Вашей командой</b>, чтобы обсудить новый способы давать больше ценности вашим клиентам и мотивировать их возвращаться к вам чаще и чаще. </p>
+            			<p class="paragraph__4">При этом вы знаете, что уже <b>в 4 часа дня будете свободны</b>, чтобы заняться спортом, а потом провести вечер с семьей… А в следующем месяце у Вас запланирован отпуск в теплой стране, о которой вы так давно мечтали…</p>
+            			<p class="paragraph__5"><b>Не так давно вы бы провели этот день (и многие следующие) в стрессе, «тушении пожаров»</b>, работая слишком долго и слишком упорно, почти без поддержки, реагируя на проблемы, вместо того, чтобы создавать успех. </p>
+            			<p class="paragraph__6">Вы улыбаетесь, понимая, как далеко вы продвинулись и как много побед впереди… </p>
+            			<p class="paragraph__7">Приветсвую, меня зовут Иван Зимбицкий и в начале карьеры предпринимателя я тоже работал по 12-18 часов в день, как и вы, возможно, сейчас… Однако я общался с многими западными предпринимателями и видел, что они успешнее меня и при этом свободны и наслаждаются жизнью, а их бизнес растет… </p>
+            			<p class="paragraph__8">Чтобы раскрыть их секрет я инвестировал в обучение у наставников из США более $15 000. И мне удалось «взломать» код технологии как создавать «саморазвивающийся» бизнес, который дает деньги и свободу. </p>
+            			<p class="paragraph__9">Сейчас у меня 3 бизнеса. </p>
+            			<p class="paragraph__10">При этом я путешествую по 4 месяца в году, обучаюсь, провожу время с семьей, обучаю команду, провожу мероприятия на 100-150 человек, занимаюсь спортом каждый день и интенсивно готовлюсь к прохождению дистанции Ironman 70.3 (это 1,9 км плавания, 90 км на велосипеде и 21,1 км – бег). </p>
+            		</div>
+            		</div>
+            	
+            	</section>
+
+            </article>
+            <section id="collage" class="">
+
+            	
+            </section>
+
+            <footer id="siteFooter">
+				<div class="footer__wrapper">
+					
+            	<div class="button__wrapper">
+            		<button class="call_to_action order__button">Да! Забронировать место сейчас! >> </button>
+            		<div class="text__wrapper">
+            			<p>И я знаю, что это возможно и для вас…</p>
+            	<p>Приходите на мой вебинар и раскрою вам свою технология в деталях. </p>
+            	</div>
+            	</div>
+            	
+            	<div class="socials__list">
+            		<a href="" class="socials_list__item"><img src="img/footer/vk-48.png" alt="" class="socials_img"></a>
+            		<a href="" class="socials_list__item"><img src="img/footer/facebook-48.png" alt="" class="socials_img"></a>
+            		<a href="" class="socials_list__item"><img src="img/footer/twitter-48.png" alt="" class="socials_img"></a>
+            	</div>
+				</div>
+
+            </footer>
+            
+
+
+            <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+
+        
+
+
+            <!-- Plugins -->
+            <script src="js/plugins.js"></script>
+            <!-- Main JS -->
+            <script src="js/main.js"></script>
+            <!-- Countdown timer script on-->
+            <script type="text/javascript">
+            	$("#countdown__timer")
+            	.countdown("2017/05/21", function(event) {
+            		var $this = $(this).html(event.strftime(''
+            			+ '<div class="countdown__block">%D <p class="countdown__last">дней </p> </div>'
+            			+ '<div class="countdown__block">%H <p class="countdown__last">часов</p> </div>'
+            			+ '<div class="countdown__block">%M <p class="countdown__last">минут</p> </div>'
+            			+ '<div class="countdown__block">%S <p class="countdown__last">секунд</p> </div>'));
+            	});
+            </script>
+            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+            <script>
+            	(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            	e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            	e.src='https://www.google-analytics.com/analytics.js';
+            	r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            	ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+            </script>
+        </body>
+        </html>

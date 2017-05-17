@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Circle Bold';
+  src: url('../fonts/Circe-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Circe-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Circe-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Circe-Bold.svg#svgCircleBold') format('svg'); /* Legacy iOS */
+}
