@@ -15,7 +15,7 @@
 }
 html {
     color: #2b2e35;
-    font-size: 0.6em;
+    font-size: 1em;
     line-height: 1.4;
 }
 
@@ -103,7 +103,7 @@ ul {
     margin:1rem auto 1.94rem;
     text-align: center;
     padding-left: 1.57rem;
-    font-size:1.92em;
+    font-size:1.42em;
     color: #18374b;
 }
 .header__bottom {
@@ -137,7 +137,6 @@ ul {
 #heroBlock {
     width: 89%;
     margin:0 auto;
-    padding-top: 2.5rem;
     background-color: #eaeaea;
 }
 
@@ -605,10 +604,7 @@ min-height: 400px;
     max-width: 1000px;
     padding-top:0;
 }
-.about__child.preferences  {
-    margin-top: 2rem;
 
-}
 .hero_portrait_wrapper {
     width: 211px;
     height: 211px;
